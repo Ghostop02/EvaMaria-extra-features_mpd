@@ -415,7 +415,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         buttons = [[
-            InlineKeyboardButton('⭕ 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ⭕', url='https://t.me/A4Earner')
+            InlineKeyboardButton('⭕ 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ⭕', url='https://t.me/+2YaY1CQKOfg3MzQ9')
             ],[
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/isaimini_updates')
         ]]
@@ -432,10 +432,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⭕️ CHΛИИΞL ⭕️', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1')
+            InlineKeyboardButton('⭕️ CHΛИИΞL ⭕️', url='https://t.me/tamilfile'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/isaimini_updates')
             ],[
-            InlineKeyboardButton('Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎', url='https://t.me/+JLuNC2rGfgQ0OGRl'),
+            InlineKeyboardButton('Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎', url='https://t.me/+2YaY1CQKOfg3MzQ9'),
             InlineKeyboardButton('🄾🅆🄽🄴🅁', url='https://t.me/Eldho123')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),

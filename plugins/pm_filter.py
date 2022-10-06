@@ -387,7 +387,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 )
                 await query.answer('Check PM, I have sent files in pm', show_alert=True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot mahn !', show_alert=True)
+            await query.answer('Unblock the bot man !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
@@ -435,8 +435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⭕️ CHΛИИΞL ⭕️', url='https://t.me/tamilfile'),
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/isaimini_updates')
             ],[
-            InlineKeyboardButton('Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎', url='https://t.me/+2YaY1CQKOfg3MzQ9'),
-            InlineKeyboardButton('🄾🅆🄽🄴🅁', url='https://t.me/Eldho123')
+            InlineKeyboardButton('Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎ 1', url='https://t.me/+2YaY1CQKOfg3MzQ9'),
+            InlineKeyboardButton('Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎ 2', url='https://t.me/+ah8EK67oTGJmYzVl')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -501,7 +501,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⭕️ Group ⭕️', url='https://t.me/+JLuNC2rGfgQ0OGRl'),
+            InlineKeyboardButton('⭕️ Group ⭕️', url='https://t.me/+2YaY1CQKOfg3MzQ9'),
             InlineKeyboardButton('🗒️ Disclaimer', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home 🏠', callback_data='start'),

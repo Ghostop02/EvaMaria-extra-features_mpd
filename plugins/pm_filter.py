@@ -415,9 +415,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         buttons = [[
-            InlineKeyboardButton('𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👑', url='https://t.me/A4Earner')
+            InlineKeyboardButton('⭕ 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ⭕', url='https://t.me/A4Earner')
             ],[
-            InlineKeyboardButton('𝙹𝙾𝙸𝙽 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/MoviesWorld_Chan_nel')
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/isaimini_updates')
         ]]
         await query.answer()
         await client.send_cached_media(
